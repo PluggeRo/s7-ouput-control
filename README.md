@@ -41,7 +41,7 @@ pip install -r requirements.txt
 ## Usage
 
 ```bash
-python PLCControl.py --ip <PLC_IP> --rack <RACK> --slot <SLOT> --byte <BYTE> --bit <BIT> --num_bytes <NUM_OUTPUT_BYTES> --value <0|1>
+python s7-output-control.py --ip <PLC_IP> --rack <RACK> --slot <SLOT> --byte <BYTE> --bit <BIT> --num_bytes <NUM_OUTPUT_BYTES> --value <0|1>
 ```
 
 **Example**: To trigger output `Q0.1`, set `--byte 0` and `--bit 1`.
